@@ -1,0 +1,10 @@
+{ 
+  "validUser": { 
+    "username": "daniell.tec@entelgy.com", 
+    "password": "Arbust0@EN@1" 
+  }, 
+  "invalidUser": { 
+    "username": "wrong.user", 
+    "password": "wrongpassword" 
+  } 
+} 
