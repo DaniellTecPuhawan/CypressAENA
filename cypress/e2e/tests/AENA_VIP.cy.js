@@ -1,4 +1,4 @@
-const LoginPage = require('./pages/AENA_VIP_Test'); 
+const LoginPage = require('../pages/AENA_VIP_Test'); 
 
 describe('Login Tests', () => { 
     it('Should login successfully with valid credentials', () => { 

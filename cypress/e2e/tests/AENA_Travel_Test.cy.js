@@ -1,4 +1,4 @@
-const LoginPage = require('../e2e/pages/AENA_Travel_Test'); 
+const LoginPage = require('../pages/AENA_Travel_Test'); 
 
 describe('Login Tests', () => { 
     it('Should login successfully with valid credentials', () => { 
