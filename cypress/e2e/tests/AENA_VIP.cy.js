@@ -5,9 +5,9 @@ describe('Login Tests', () => {
       LoginPage.navigate(); 
       LoginPage.clickLogin(); 
       //LoginPage.screenLogin
-      //LoginPage.enterUsername(Cypress.env('USERNAME')); 
-      //LoginPage.enterPassword(Cypress.env('PASSWORD')); 
-      //LoginPage.submitButton(); 
+      LoginPage.enterUsername(Cypress.env('USERNAME')); 
+      LoginPage.enterPassword(Cypress.env('PASSWORD')); 
+      LoginPage.submitButton(); 
 
     }); 
 });

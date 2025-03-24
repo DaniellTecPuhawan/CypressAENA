@@ -2,7 +2,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    chromeWebSecurity: false,  // Permite el acceso a múltiples dominios
+    chromeWebSecurity: false,  // Permite el acceso a múltiples dominios,
+    experimentalSessionAndOrigin: true, // Habilitar el uso de cy.origin,
     env: {
       USERNAME: process.env.CYPRESS_USERNAME || 'daniell.tec@entelgy.com',
       PASSWORD: process.env.CYPRESS_PASSWORD || 'Arbust0@01'
@@ -15,3 +16,5 @@ module.exports = defineConfig({
     }
   },
 });
+
+
